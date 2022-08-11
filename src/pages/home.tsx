@@ -53,14 +53,14 @@ export const Home: React.FC = () => {
 								studying since 2020 recently decided to enter the job market in
 								the area, to learn more about me and my skills go to{" "}
 								<Link
-									to={""}
+									to="/about"
 									className="text-primary-6-light font-semibold dark:font-normal dark:text-white"
 								>
 									about me{" "}
 								</Link>
 								page and to learn more about my projects go to{" "}
 								<Link
-									to={""}
+									to="/portfolio"
 									className="text-primary-6-light font-semibold dark:font-normal dark:text-white"
 								>
 									portfolio
@@ -74,7 +74,7 @@ export const Home: React.FC = () => {
 							</ul>
 
 							<Link
-								to=""
+								to="/about"
 								className="mt-5 inline-flex items-center text-sm border-b border-solid text-primary-1-light font-semibold dark:font-normal dark:text-white border-primary-1-light dark:border-white"
 							>
 								See more <HiOutlineArrowNarrowRight className="ml-2" />
@@ -168,7 +168,8 @@ export const Home: React.FC = () => {
 							<section className="flex md:ml-14">
 								<div>
 									<a
-										href=""
+										href="https://github.com/andersamuel/simple-portfolio-reactjs"
+										target="_blank"
 										className="w-full flex flex-col max-w-sm py-4 px-6 rounded-lg bg-primary-2-light dark:bg-primary-4"
 									>
 										<h1 className="text-sm font-normal text-primary-6-light dark:text-white">
@@ -202,7 +203,7 @@ export const Home: React.FC = () => {
 									<h4 className="text-sm font-normal flex text-primary-6-light dark:text-primary-2">
 										View the source code of this portfolio on{" "}
 										<a
-											href=""
+											href="https://github.com/andersamuel/simple-portfolio-reactjs"
 											target="_blank"
 											className="text-primary-6-light font-semibold dark:font-normal dark:text-primary-6 ml-1 flex items-center"
 										>
@@ -223,14 +224,14 @@ export const Home: React.FC = () => {
 									<p className="mt-4 text-sm font-normal text-primary-6-light dark:text-primary-2">
 										Gave me a star on{" "}
 										<a
-											href=""
+											href="https://github.com/andersamuel/simple-portfolio-reactjs"
 											className="text-primary-6-light font-semibold dark:font-normal dark:text-primary-7"
 										>
 											GitHub
 										</a>{" "}
 										and see it live on the{" "}
 										<a
-											href=""
+											href="https://simple-portfolio-reactjs.vercel.app/"
 											className="text-primary-6-light font-semibold dark:font-normal dark:text-primary-7"
 										>
 											web
@@ -247,7 +248,7 @@ export const Home: React.FC = () => {
 					<p>
 						Developed by{" "}
 						<a
-							href=""
+							href="https://simple-portfolio-reactjs.vercel.app/"
 							className="text-black font-semibold dark:font-normal dark:text-white"
 						>
 							Anderson Oliveira
